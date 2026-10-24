@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Website | codingbyRidha</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    body{
+        background-color: #6c4319;
+    }
+    .section{
+        padding: 2rem 9%;
+    }
+    .header{
+        background:#6c4319;
+        display: flex;
+        align-items: center;
+        padding: 15px 30px;
+        justify-content: space-between;
+        box-shadow: 0 0.2rem 0.5rem 1rem rgb(23, 2, 2);
+    }    
+    .header .logo{
+        font-size: 2.8rem;
+        font-weight: bold;
+        color: #160303;
+        text-decoration: none;
+    }
+    .header .logo span{
+        color: #160303;
+    }
+    .header .navbar{
+        display: flex;
+        gap: 2.5rem;
+    }
+    .header .navbar a{
+        font-size: 1.6rem;
+        color: #0a0a0a;
+        text-decoration: none;
+        font-weight: 500;
+        transition: 0.3s;
+    }
+    .header .navbar a:hover{
+        color: #5f0f0f;
+    } 
+    .contact-section{
+        padding: 50px 0 100px;
+        background: #8f8d8d;
+    }
+    .contact-section .section-content{
+        display: flex;
+        gap: 48px;
+        align-items: flex-start;
+        justify-content: space-between;
+    } 
+    .contact-section .section-title{
+        text-align: center;
+        font-size: 2.5rem;
+        color: #210d0d;
+        margin-bottom: 2rem;
+    } 
+    .contact-section .contact-info-list .cotact-info{
+        display: flex;
+        gap: 20px;
+        margin: 20px;
+        align-items: center;
+    }  
+    .contact-section .contact-form .form-input{
+        width: 100%;
+        height: 50px;
+        padding: 0 12px;
+        outline: none;
+        margin-bottom: 16px;
+        background-color: #fff;
+    }
+    .contact-section .contact-form textarea .form-input{
+        height: 100px;
+        padding: 12px;
+        resize: horizontal;
+    }
+    .contact-section .contact-form .submit-button{
+        display: inline-block;
+        margin-top: 1rem;
+        border-radius: 5rem;
+        background-color: #6f151a;
+        color: #8f536d;
+        padding: 0.4rem 2rem;
+        font-size: 1rem;
+    }  
+   
+</style>
+<body>
+    <header class="header">
+        <a href="#" class="logo">🥤RiDha Cafe<span>'</span></a>
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <section class="contact-section">
+        <h1 class="section-title"><span>Contact </span>Us</h1>
+        <div class="section-content">
+            <ul class="contact-info-list">
+                <li class="contact-info">
+                    <p>107,Ridha Cafe, Near College Campus, MG road, Ahmendabad</p>
+                </li>
+                <li class="contact-info">
+                    <p>info@Ridhacafewebsite.com</p>
+                </li>
+                <li class="contact-info">
+                    <p>(123) 456-78909</p>
+                </li>
+                <li class="contact-info">
+                    <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                </li>
+                <li class="contact-info">
+                    <p>Sunday: Closed</p>
+                </li>
+                <li class="contact-info">
+                    <p>www.codingbyRidhaweb.com</p>
+                </li>
+            </ul>
+
+            <form action="#" class="contact-form">
+                <input type="text" placeholder="Your name" class="form" required>
+                <input type="email" placeholder="Your email" class="form" required>
+                <textarea placeholder="Your message" class="form-input"></textarea>
+                <button class="submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>

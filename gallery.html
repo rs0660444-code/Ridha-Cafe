@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Website | codingbyRidha</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    body{
+        background-color: #6c4319;
+    }
+    .section{
+        padding: 2rem 9%;
+    }
+    .header{
+        background:#6c4319;
+        padding:15px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 0.2rem 0.5rem 1rem rgb(23, 2, 2);
+    }
+    .header .logo{
+        font-size: 2.8rem;
+        font-weight: bold;
+        color: #160303;
+        text-decoration: none;
+    }
+    .header .logo span{
+        color: #160303;
+    }
+    .header .navbar{
+        display: flex;
+        gap: 2.5rem;
+    }
+    .header .navbar a{
+        font-size: 1.6rem;
+        color: #0a0a0a;
+        text-decoration: none;
+        font-weight: 500;
+        transition: 0.3s;
+    }
+    .header .navbar a:hover{
+        color: #5f0f0f;
+    }
+    .gallery-section{
+        padding: 50px 9%;
+    }
+    .gallery-section .gallery-list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        padding: 0;
+    }
+    .gallery-section .gallery-list .gallery-item{
+        flex: 1 1 calc(33.333%-32px);
+        border-radius: 10px;  
+    }
+    .gallery-section  .gallery-item .gallery-image{
+        width: 100%;
+        height: 250px;
+        display: block;
+    }
+    .gallery-section  .gallery-item:hover .gallery-image{
+        transform: scale(1.1);
+    }
+    .gallery-section .section-title{
+        text-align: center;
+        font-size: 2.5rem;
+        color: #0f0e0e;
+        margin-bottom: 2rem;
+    }            
+</style>
+<body>
+    <header class="header">
+        <a href="#" class="logo">🥤RiDha Cafe<span>'</span></a>
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <section class="gallery-section">
+        <h1 class="section-title"><span>Gallery</span></h1>
+        <div class="section-content">
+            <ul class="gallery-list">
+                <li class="gallery-item">
+                    <img src="c:\Users\Anshika Singh\OneDrive\文档\cafeview.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="c:\Users\Anshika Singh\OneDrive\文档\cafeview2.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="c:\Users\Anshika Singh\OneDrive\文档\cafeview3.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="c:\Users\Anshika Singh\OneDrive\文档\cafeview4.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="c:\Users\Anshika Singh\OneDrive\文档\cafeview5.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="c:\Users\Anshika Singh\OneDrive\文档\cafeview6.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>

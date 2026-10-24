@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Website | codingbyRidha</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    body{
+        background-color: #6c4319;
+    }
+    .section{
+        padding: 2rem 9%;
+    }
+    .header{
+        background:#6c4319;
+        display: flex;
+        align-items: center;
+        padding: 15px 30px;
+        justify-content: space-between;
+        box-shadow: 0 0.2rem 0.5rem 1rem rgb(23, 2, 2);
+    }
+    .header .logo{
+        font-size: 2.8rem;
+        font-weight: bold;
+        color: #160303;
+        text-decoration: none;
+    }
+    .header .logo span{
+        color: #160303;
+    }
+    .header .navbar{
+        display: flex;
+        gap: 2.5rem;
+    }
+    .header .navbar a{
+        font-size: 1.6rem;
+        color: #0a0a0a;
+        text-decoration: none;
+        font-weight: 500;
+        transition: 0.3s;
+    }
+    .header .navbar a:hover{
+        color: #5f0f0f;
+    }    
+    .heading{
+        text-align: center;
+        font-size: 3rem;
+        color: #280404;
+        margin: 2rem 0;
+    }
+    .heading span{
+        color: #280404;
+    }
+    .about .row{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        padding: 2rem 0;
+        padding-bottom: 3rem;
+    }
+    .about .row .photo-cotainer photo{
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .about .row .content{
+        flex: 1 1 40rem;
+    }
+    .about .row .content p{
+        font-size: 1.5rem;
+        color: #0a0a0a;
+        padding: 1rem 0;
+        line-height: 1.5;
+    }    
+</style>
+<body>
+    <header class="header">
+        <a href="#" class="logo">🥤RiDha Cafe<span>'</span></a>
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <section class="about se" id="about">
+        <h1 class="heading"> <span>ABOUT</span> US</h1>
+        <div class="row">
+            <div class="photo-container">
+                <img src="c:\Users\Anshika Singh\OneDrive\文档\peoplecafe.jpeg" class="photo" alt="RiDha Cafe Diagram">
+            </div>
+            <div class="content">
+                <p>At <b> RiDha Cafe </b>, we pride ourselves on being a go to destination for coffee lovers, food enthusiasts, and conversation seekers alike. We are dedicated to providing an exceptional cafe experience in a cozy, welcoming atmosphere where guests can relax, unwind, and enjoy quality time in comfort.
+                   Whether you're stopping by for your daily espresso, catching up with friend, or finding a quiet corner to focus, Ridha Cafe id crafted to be your home away from home. 
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Website | codingbyRidha</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    body{
+        background-color: #6c4319;
+    }
+    .section{
+        padding: 2rem 9%;
+    }
+    .header{
+        background:#6c4319;
+        display: flex;
+        align-items: center;
+        padding: 15px 30px;
+        justify-content: space-between;
+    }
+    .header .logo{
+        font-size: 2.8rem;
+        font-weight: bold;
+        color: #160303;
+        text-decoration: none;
+    }
+    .header .logo span{
+        color: #160303;
+    }
+    .header .navbar{
+        display: flex;
+        gap: 2.5rem;
+    }
+    .header .navbar a{
+        font-size: 1.6rem;
+        color: #0a0a0a;
+        text-decoration: none;
+        font-weight: 500;
+        transition: 0.3s;
+    }
+    .header .navbar a:hover{
+        color: #5f0f0f;
+    } 
+    .menu-section{
+        background-color: #160303;
+        padding: 3rem 9%;
+        border-radius: 12px;
+        margin-top: 1rem;
+    }
+    .menu-section .section-title{
+        text-align: center;
+        font-size: 2.5rem;
+        color: #ffffff;
+        margin-bottom: 2rem;
+    }
+    .menu-list{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        list-style: none;
+        padding: 0;
+    }
+    .menu-item{
+        background-color: #6c4319;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .menu-item img{
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 3rem;
+    }
+    .menu-item h3{
+        font-size: 1.4rem;
+        color: #dddddd;
+        margin-bottom: 0.5rem;
+    }
+    .menu-item span{
+        font-size: 0.95rem;
+        color: #dddddd;
+    }
+    .btn{
+        display: inline-block;
+        margin-top: 1rem;
+        border-radius: 5rem;
+        background-color: #6f151a;
+        color: #8f536d;
+        padding: 0.4rem 2rem;
+        font-size: 1rem;
+    }
+    .btn:hover{
+        background: #0a0805;
+    }       
+</style>
+<body>
+    <header class="header">
+        <a href="#" class="logo">🥤RiDha Cafe<span>'</span></a>
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <section class="menu-section">
+        <h1 class="section-title"> <span>Our Menu</span></h1>
+        <div class="section-content">
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <img src="c:\Users\Anshika Singh\OneDrive\文档\hot beverages.jpeg" alt="Hot Beverages" class="menu-image" width="200px">
+                    <h3 class="name">Hot Chocolate</h3>
+                    <span class="price-tag">Starting from $90</span>
+                    <a href="#" class="btn">Select Options</a>
+                </li>
+                <li class="menu-item">
+                    <img src="c:\Users\Anshika Singh\OneDrive\文档\cold beverages.jpeg" alt="Cold Beverages" class="menu-image">
+                    <h3 class="name">Oreo/Kitkat Shake</h3>
+                     <span class="price-tag">Starting from $200</span>
+                     <a href="#" class="btn">Select Options</a>
+                </li>
+                <li class="menu-item">
+                    <img src="c:\Users\Anshika Singh\OneDrive\文档\refreshment.jpeg" alt="Refreshment" class="menu-image">
+                    <h3 class="name">Mint Mojito/Watermelon</h3>
+                     <span class="price-tag">Starting from $400</span>
+                     <a href="#" class="btn">Select Options</a>
+                </li>
+                <li class="menu-item">
+                    <img src="c:\Users\Anshika Singh\OneDrive\文档\special combos.jpeg" alt="Special Combos" class="menu-image" >
+                    <h3 class="name">Veg Burger+Fries+Refreshment</h3>
+                     <span class="price-tag">Starting from $1000</span>
+                     <a href="#" class="btn">Select Options</a>
+                </li>
+                <li class="menu-item">
+                    <img src="c:\Users\Anshika Singh\OneDrive\文档\dessert.jpeg" alt="Dessert" class="menu-image">
+                    <h3 class="name">Waffle/Pancake</h3>
+                     <span class="price-tag">Starting from $100</span>
+                     <a href="#" class="btn">Select Options</a>
+                </li>
+                <li class="menu-item">
+                    <img src="c:\Users\Anshika Singh\OneDrive\文档\burger & french fries.jpeg" alt="Burger & French Fries" class="menu-image">
+                    <h3 class="name">Burger & french Fries</h3>
+                     <span class="price-tag">Starting from $500</span>
+                     <a href="#" class="btn">Select Options</a>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
